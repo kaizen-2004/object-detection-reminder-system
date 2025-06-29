@@ -3,4 +3,9 @@ streamlit==1.32.0
 ultralytics==8.1.28
 opencv-python-headless==4.9.0.80
 numpy==1.26.4
-pillow==10.2.0 
+pillow==10.2.0
+# Additional dependencies used in the code
+torch>=2.0.0
+torchvision>=0.15.0
+# Optional: pandas for data handling (used in requirements_big.txt)
+pandas>=2.0.0 

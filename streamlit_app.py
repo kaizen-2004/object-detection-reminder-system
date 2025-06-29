@@ -283,7 +283,7 @@ def main():
             if uploaded_file is not None:
                 # Display original image
                 image = Image.open(uploaded_file)
-                st.image(image, caption="Original Image", use_container_width=True)
+                st.image(image, caption="Original Image")
                 
                 # Load model
                 model, labels = load_yolo_model()
@@ -300,7 +300,7 @@ def main():
                             )
                             
                             # Display processed image
-                            st.image(processed_image, caption="Processed Image with Detections", use_container_width=True)
+                            st.image(processed_image, caption="Processed Image with Detections")
                             
                             # Log the detection
                             log_status(current_status)
