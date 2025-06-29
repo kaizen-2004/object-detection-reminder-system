@@ -1,3 +1,4 @@
+# Updated for Python 3.13.5 compatibility
 streamlit==1.32.0
 ultralytics==8.1.28
 opencv-python-headless==4.9.0.80
