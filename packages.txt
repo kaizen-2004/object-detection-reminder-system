@@ -5,7 +5,7 @@ libsm6
 libxext6
 libxrender-dev
 libgomp1
-libgthread-2.0-0
+# libgthread-2.0-0 → removed (no longer available)
 libgtk-3-0
 libavcodec-dev
 libavformat-dev
@@ -15,4 +15,4 @@ libxvidcore-dev
 libx264-dev
 libjpeg-dev
 libpng-dev
-libtiff-dev 
+libtiff-dev
