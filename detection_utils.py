@@ -11,7 +11,7 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
-MODEL_PATH = resource_path(r"models/last.pt")
+MODEL_PATH = resource_path(r"models/best.pt")
 
 # === Constants ===
 CONFIDENCE_THRESHOLD = 0.5
@@ -19,7 +19,7 @@ TARGET_CLASSES = {'lipbalm', 'minifan'}
 
 def load_model(model_path=None):
     if model_path is None:
-        model_path = resource_path("models/last.pt")
+        model_path = resource_path("models/best.pt")
     model = YOLO(model_path)
     labels = model.names
     return model, labels

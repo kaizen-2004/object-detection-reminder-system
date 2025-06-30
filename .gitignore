@@ -139,7 +139,6 @@ cython_debug/
 .vscode/
 
 # Large model files (YOLO models)
-models/*.pt
 models/*.pth
 models/*.weights
 models/*.onnx
